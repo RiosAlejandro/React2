@@ -1,23 +1,31 @@
+/*211d30(fondo d form), 80cbc4(para los input al click), 87fcef(fondo foto), ff8ea9(circulo de foto), 704fec(fondo proyecto)*/
+::placeholder{
+    color: gray;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
 form{
     width: 35rem;
     height: 50rem;
-    /*background-color:darkolivegreen;*/
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #211d30;
+    margin-left: 25%;
+    /*margin-right: auto;*/
     position: relative;
-    border: 2px solid black;
+    padding-top: 1rem;
 }
 .campoInput{
     width: 100%;
-    padding: 1rem;
+    padding: 2rem 2.5rem;
 }
 input{
     width: 100%;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 0.5px solid gray;
     outline: none;
+    background-color: #211d30;
+    padding: .5rem;
 }
 input:hover{
-    border-bottom: 1px solid olive;
+    border-bottom: 1px solid #87fcef;
 }
 /*cambiar color border input al hacer click*/
