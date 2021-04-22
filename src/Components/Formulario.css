@@ -1,0 +1,23 @@
+form{
+    width: 35rem;
+    height: 50rem;
+    /*background-color:darkolivegreen;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 2px solid black;
+}
+.campoInput{
+    width: 100%;
+    padding: 1rem;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+input:hover{
+    border-bottom: 1px solid olive;
+}
+/*cambiar color border input al hacer click*/

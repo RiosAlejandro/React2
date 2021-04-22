@@ -1,0 +1,10 @@
+.campoFoto{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: crimson;
+    position: absolute;
+    z-index: -1;
+    display: none;
+}
