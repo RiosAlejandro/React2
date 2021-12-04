@@ -4,7 +4,7 @@ import Foto from './Foto';
 
 const Formulario = () => {
     return ( 
-        <Fragment> 
+        <div className="principal"> 
             <form>
             <div className="campoInput">
                 <input 
@@ -37,11 +37,10 @@ const Formulario = () => {
                 />
             </div>
 
-            <Foto />
             </form>
-
+            <Foto />
             
-        </Fragment>
+        </div>
      );
 }
  

@@ -4,14 +4,25 @@
     font-size: 1.7rem;
     font-family: 'Montserrat', sans-serif;
 }
+::placeholder:focus{
+    color: #87fcef;
+}
+.principal{
+    width: 80rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
 form{
     width: 35rem;
     height: 50rem;
     background-color: #211d30;
-    margin-left: 25%;
-    /*margin-right: auto;*/
-    position: relative;
     padding-top: 1rem;
+    margin-left: 10rem;
+    -webkit-box-shadow: 10px 10px 8px -8px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 8px -8px rgba(0,0,0,0.59);
+    box-shadow: 10px 10px 8px -8px rgba(0,0,0,0.59);
 }
 .campoInput{
     width: 100%;
@@ -27,5 +38,9 @@ input{
 }
 input:hover{
     border-bottom: 1px solid #87fcef;
+}
+input:focus{
+    border-bottom: 1px solid #7efaeb;
+    color: #7efaeb;
 }
 /*cambiar color border input al hacer click*/

@@ -1,12 +1,15 @@
 .campoFoto{
     width: 800px;
     height: 300px;
-    margin-left: -20%;
+    /* margin-left: -20%; */
     /*margin-right: auto;*/
     background-color: #87fcef;
     position: absolute;
     z-index: -1;
     top: 12%;
+    -webkit-box-shadow: -10px 10px 8px -8px rgba(0,0,0,0.59);
+    -moz-box-shadow: -10px 10px 8px -8px rgba(0,0,0,0.59);
+    box-shadow: -10px 10px 8px -8px rgba(0,0,0,0.59);
 }
 
 .campoCirculo{
@@ -17,4 +20,7 @@
     transform: translateX(500px);
     margin-top: 25px;
     border-radius: 50%;
+    -webkit-box-shadow: inset 0px 0px 32px -10px rgba(0,0,0,0.68);
+    -moz-box-shadow: inset 0px 0px 32px -10px rgba(0,0,0,0.68);
+    box-shadow: inset 0px 0px 32px -10px rgba(0,0,0,0.68);
 }
